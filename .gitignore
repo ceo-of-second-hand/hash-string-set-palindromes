@@ -1,0 +1,5 @@
+*.exe
+*.o
+build/
+tests/data/
+tests/out/

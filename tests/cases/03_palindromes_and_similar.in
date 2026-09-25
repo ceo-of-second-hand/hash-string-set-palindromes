@@ -1,0 +1,16 @@
++ a
++ aa
++ aaa
+? a
+? aa
+? aaaa
++ ab
++ ba
+? ab
+? ba
++ abcba
++ abccba
++ abcdefghgfedcba
++ abcdefgghfedcba
++ abcdefghijklmno
+#
