@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug lab on a test case",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/lab_debug.exe",
+            "args": ["-s", "12345", "${workspaceFolder}/tests/cases/${input:testCase}"],
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/Program Files/CodeBlocks/MinGW/bin/gdb.exe",
+            "setupCommands": [
+                { "description": "Pretty printing", "text": "-enable-pretty-printing", "ignoreFailures": true }
+            ],
+            "preLaunchTask": "build lab (debug)"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "testCase",
+            "type": "pickString",
+            "description": "Input file from tests/cases",
+            "options": [
+                "01_basic.in",
+                "02_repeats_and_missing.in",
+                "03_palindromes_and_similar.in",
+                "04_empty_set.in",
+                "05_readd_after_delete.in",
+                "06_no_terminator.in",
+                "07_ops_after_hash_ignored.in",
+                "08_invalid_words_skipped.in"
+            ],
+            "default": "03_palindromes_and_similar.in"
+        }
+    ]
+}
