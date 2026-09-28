@@ -15,9 +15,17 @@
 1. VS Code → *File → Open Folder* → `C:\Users\Ivanka\Desktop\study_4year_1term\pryk_alh\lab1-hash-set-palindromes`.
 2. Відкрити вкладки: `string_set.h`, `main.cpp`, `gen.cpp`, `REPORT.md` (`brute.cpp` — за потреби, крок 6а).
 3. Термінал: **Ctrl+`** → стрілка **˅** біля **+** → **Command Prompt**.
-   Має бути: `C:\...\lab1-hash-set-palindromes>`
    **Не PowerShell**: там `>` дописує на початок файлу 3 службові байти (BOM),
    і lab.exe пропускає перший рядок як некоректний.
+   Якщо рядок терміналу починається з `PS` або ви не в теці лаби — ввести дві команди:
+   ```
+   cmd
+   cd /d C:\Users\Ivanka\Desktop\study_4year_1term\pryk_alh\lab1-hash-set-palindromes
+   ```
+   (`cmd` перемикає термінал у Command Prompt — `PS` зникає; `cd /d` переходить у теку лаби.)
+   **Перевірка (це не команда, а те, як має виглядати початок рядка):**
+   `C:\Users\Ivanka\Desktop\study_4year_1term\pryk_alh\lab1-hash-set-palindromes>` — без `PS`.
+   Команда `dir` має показати `main.cpp`, `gen.cpp`, `string_set.h`, `brute.cpp`, `input_example.txt`.
 4. (Необов'язково) видалити стару збірку, щоб показати збірку «з нуля»: `rmdir /s /q build`
 
 ---
