@@ -8,8 +8,8 @@
 Сценарій живого показу: [PRESENTATION.md](PRESENTATION.md).
 
 Це робоча копія з детальними коментарями й автотестами. Версія для здачі
-(той самий алгоритм, мінімум коментарів, без тестів) — окремий репозиторій
-`lab3-hash-set-palindromes` (тека `pryk_alh\lab3-hash-set-palindromes`).
+(той самий алгоритм, мінімум коментарів, без Python-тестів; з brute.cpp для ручної перевірки) — окремий репозиторій
+`lab1-hash-set-palindromes` (тека `pryk_alh\lab1-hash-set-palindromes`).
 
 ## Файли
 
